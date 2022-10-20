@@ -6,7 +6,6 @@ import TileLayer from 'ol/layer';
 const raster = new TileLayer({
   source: new XYZ({
     url: 'https://basemaps.linz.govt.nz/v1/tiles/aerial/WebMercatorQuad/{z}/{x}/{y}.webp'+'?api=c01gfqgs0gjnfeh12edb13swppm',
-    tileOptions: {crossOriginKeyword: null},
   }),
 });
 
