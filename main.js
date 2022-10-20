@@ -1,10 +1,7 @@
-import GeoJSON from 'ol/format/GeoJSON';
 import Map from 'ol/Map';
-import VectorSource from 'ol/source/Vector';
 import View from 'ol/View';
 import XYZ from 'ol/source/XYZ';
 import TileLayer from 'ol/layer';
-import {bbox as bboxStrategy} from 'ol/loadingstrategy';
 
 const raster = new TileLayer({
   source: new XYZ({
